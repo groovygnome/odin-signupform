@@ -28,6 +28,14 @@ body{
     object-fit: cover;
 }
 
+.caption a{
+    color:white;
+}
+
+.caption a:visited{
+    color:white;
+}
+
 .logo{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -63,9 +71,57 @@ body{
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: #fbfbfb;
+}
+
+.about{
+    padding-left: 2.5vw;
+    width: 75%;
+    align-self: flex-start;
+    font-weight: bold;
 }
 
 .signup-form{
     background-color: white;
+    width: 100%;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.signup-form > h1{
+    padding-left: 2.5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 1vh;
+    font-size: 1.25rem;
+}
+
+form{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 16px;
+    max-width: 384px;
+    padding-left: 2.5vw;
+    padding-bottom: 2.5vh;
+}
+
+label > span{
+    display: block;
+    letter-spacing: 2px;
+    font-size: 0.6rem;
+    font-weight: bold;
+
+}
+
+button{
+    margin: 2.5vh 0 1vh 2.6vw;
+    background-color: #ca7f33;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    border-radius: 3px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.already > a{
+    color: #ca7f33;
+    text-decoration: none;
 }
